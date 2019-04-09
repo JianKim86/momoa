@@ -2,7 +2,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="./css/login.css">
 <?php include("nav.php"); ?>
   
-		<!--개인연결..-->	 		
+		<!--개인연결-->	 		
   		<script type="text/javascript">
   			function signIn(){
 				$("form").submit();				
