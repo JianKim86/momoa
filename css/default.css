@@ -112,6 +112,7 @@ body, html {margin: 0; padding: 0; height: 100%;}
 @media screen and (max-width:576px) {
     #header {height: 40px;}
     #header .logimg {padding: 10px;}
+    #section .container { width:100%!important; }
  }
 
 @media screen and (max-width:768px ) {
