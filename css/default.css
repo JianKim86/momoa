@@ -107,7 +107,7 @@ body, html {margin: 0; padding: 0; height: 100%;}
 
 
 #page .mh-head {background-color: #fff; color:#000;}
-#section .container {background-color: #fff; width: 1080px; margin: 0 auto; }
+#section .container {background-color: #fff; width: 1080px; margin: 0 auto!important; }
 
 @media screen and (max-width:576px) {
     #header {height: 40px;}

@@ -17,7 +17,7 @@
 
 #header .first {border-top :1px solid #efefef; border-bottom : 1px solid #ddd;}
 #header .first .nav-mobile { visibility: hidden;}
-
+#header .first .nav-up { box-sizing: unset!important; }
 #header .second { border-bottom: 1px solid #ddd;}
 
 .cursor_p { cursor: pointer; }
