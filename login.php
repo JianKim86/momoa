@@ -11,8 +11,7 @@
 		
 	</head>
 	<body>
-	<div id="page">
-    <div id="header"></div>
+	
     <div id="section">
         <div class="container">
 			<div class = "login_container">

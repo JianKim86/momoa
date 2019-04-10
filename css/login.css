@@ -61,11 +61,11 @@
     background: #555;
 	text-align: center;
 }
-#section .container .login_container .register_btn{
+/* #section .container .login_container .register_btn{
 	padding-left: 12.5px;
 	padding-right: 12.5px;
 }
-	
+	 */
 #section .container .login_container .register_btn a {
 	display: block;
     width: 100%;
