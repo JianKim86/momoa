@@ -3,51 +3,51 @@
 .margin_r10{margin-right: 10px;}
 html, body
 {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 body
 {
-	background-color: #fff;
-	font-family: Arial, Helvetica, Verdana;
-	font-size: 14px;
-	line-height: 22px;
-	color: #666;
-	position: relative;
-	-webkit-text-size-adjust: none;
+    background-color: #fff;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    position: relative;
+    -webkit-text-size-adjust: none;
 }
 body *
 {
-	text-shadow: none;
+    text-shadow: none;
 }
 h1, h2, h3, h4, h5, h6
 {
-	line-height: 1;
-	font-weight: bold;
-	margin: 20px 0 10px 0;
+    line-height: 1;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
 }
 h1, h2, h3
 {
-	font-size: 18px;
+    font-size: 18px;
 }
 h4, h5, h6
 {
-	font-size: 16px;
+    font-size: 16px;
 }
 #header p
 {
-	margin: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 a, a:link, a:active, a:visited, a:hover
 {
-	color: inherit!important;
-	text-decoration: none!important;
+    color: inherit!important;
+    text-decoration: none!important;
 }
 
 nav:not(.mm-menu)
 {
-	display: none;
+    display: none;
 }
 
 textarea:focus {
@@ -107,19 +107,21 @@ body, html {margin: 0; padding: 0; height: 100%;}
 
 
 #page .mh-head {background-color: #fff; color:#000;}
-#section .container {background-color: #fff; width: 1080px; margin: 0 auto!important; }
+#section .container {background-color: #fff; width: 1080px; margin: 0 auto!important; padding: 0px; }
 
+
+
+
+@media screen and (max-width:1080px ) {
+    #section .container, #header .mypage {width: 100%;  max-width: inherit !important; }
+
+
+} 
+@media screen and (max-width:768px ) {
+    #section .container { width:100% !important;  max-width: inherit !important;}
+} 
 @media screen and (max-width:576px) {
     #header {height: 40px;}
     #header .logimg {padding: 10px;}
-    #section .container { width:100%!important; }
+    #section .container { width:100%!important; max-width: inherit!important;}
  }
-
-@media screen and (max-width:768px ) {
-
-}
-@media screen and (max-width:1080px ) {
-    #section .container, #header .mypage {width: 100%; }
-
-
-}  
