@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- <html lang='ko' class="no-js">
+ --><html lang='ko'>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>test</title>
+
+		<link rel="stylesheet" type="text/css" href="./css/nav/nav.css">
+		<link rel="stylesheet" type="text/css" href="./css/nav/hamburgers.min.css">
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico" />
+ 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/default.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.js"></script>
+		<link rel="stylesheet" type="text/css" href="./lib/jquery.mhead.css">
+		<script type="text/javascript" src="./lib/jquery.mhead.js"></script>
+		<script src="./js/default.js"></script>
+		<!--개인 링크 연결-->
+		<link rel="stylesheet" type="text/css" href="./css/board_write.css">
+		<script src="./js/board_write.js"></script>
+  
+</head>
+
+
+<body>
+<div id="page">
+  <div id="header"></div>
+
+
+  <div id="section">
+  <div class="container">
+     <!-- 개인작업영역 -->
+		<div class="bwrite_container">
+		<div class="morebox">
+			<div id="centerline"></div>	
+			<div id="textbox">
+				<span>
+					<span class="itemtype">Momoa</span> <span class="moretext">문의하기</span>
+				</span>
+			</div>	
+		</div>
+		<div class= "board_form">
+			<form action="register_inquire_db.php" method="post" class ="bform" enctype="multipart/form-data">
+				<div class="board_write">
+					<div class="prdSelect">
+						<p class="button"><a onclick="select_item()"><span>상품선택 > </span></a>
+						<select id="select_type" class="c_type hideselet" name="select_type" onchange="s_type(this);" >
+							<option value="">- 상품타입선택 -</option>
+							<option value="top">top</option>
+							<option value="outer">outer</option>
+							<option value="bottom">bottom</option>
+							<option value="onepiece">onepiece</option>
+							<option value="shoes">shoes</option>
+						</select>
+						<select id="select_name" class="c_name hideselet" name="select_name" onchange="s_name(this);" >
+							<option value="">- 상품이름선택 -</option>
+							<option value="해당상품코드">kingston mtm</option>
+							<option value="해당상품코드">u-neck tee</option>
+							<option value="해당상품코드">ess cotton tee</option>
+							<option value="해당상품코드">cream pintuck wide slacks</option>
+							<option value="해당상품코드">span cotton pants</option>
+						</select>
+						</p>
+						<p class="item_script hideselet"></p>
+						<input type="hidden" id="item_code" name="item_code" />				
+					</div>
+					<table class="board_table">
+						<tbody>
+							<tr class="first">	
+								<th scope="row">제목</th>
+									<td>
+										<select id="subject" name="subject" >
+											<option value="문의합니다">문의합니다</option>
+											<option value="사이즈 문의합니다">사이즈 문의합니다</option>
+										</select>  
+									</td>
+							</tr>
+							<tr class="write-wrap">
+								<td colspan="2" class="write">
+									<div class="content_cont">
+									<input type="hidden"  name="write_content" class="write_content"/>
+									<textarea> </textarea>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">첨부파일1</th>
+								<td><input name="attach_file[]" type="file"  /></td>
+							</tr>
+							<tr>
+								<th scope="row">첨부파일2</th>
+								<td><input name="attach_file[]" type="file"  /></td>
+							</tr>
+							<tr>
+							<th scope="row">첨부파일3</th>
+								<td><input name="attach_file[]" type="file"  /></td>
+							</tr>
+							<tr>
+								<th scope="row">첨부파일4</th>
+								<td><input name="attach_file[]" type="file"  /></td>
+							</tr>
+							<tr>
+								<th scope="row">첨부파일5</th>
+								<td><input name="attach_file[]" type="file"  /></td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<th scope="row">비밀번호</th>
+									<td><input id="password" name="password" value="" type="password"  /></td>
+							</tr>
+							<tr class="">
+								<th scope="row">비밀글설정</th>
+								<td>
+									<input id="secure0" name="secure" value="F" type="radio" checked="checked"  /><label for="secure0" >공개글</label>
+									<input id="secure1" name="secure" value="T" type="radio"  /><label for="secure1" >비밀글</label>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+					
+				<div class="btnArea ">
+					<span class="left"><a href="/board.php"><span class="list_btn">목록</span></a></span>
+					<a><span class="register_btn" onclick="confirm_board(1)">등록</span></a>
+					<a><span class="cancel_btn" onclick="confirm_board(2);">취소</span></a>
+				</div>
+				<input type="hidden" id="user_id"  name="user_id"/>
+			</form>
+		</div>
+		</div>
+
+
+ </div>
+ </div>
+
+
+
+
+    <div id="footer"></div>    
+
+</div>
+</body>
+</html>
