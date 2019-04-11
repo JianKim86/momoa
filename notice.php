@@ -19,24 +19,18 @@
 <?php include("nav.php"); ?>
 		
     <script>
-        $(document).ready(function () {
+        $(document).ready(function () {            
+
             $(".notice_table_tr_hidden").click(function () {
                 status = $(".table_accrodion_content1").css("display");
                 if (status == "none") {
-                        $(".table_accrodion_content1").css("display", "");
-                    } else {
-                        $(".table_accrodion_content1").css("display", "none");
-                    }                
-                });
-        
-            var arrclass_info = '<?php echo $jsonData ?>';
-            $(".table_accrodion_content1").click(function () {
-                $(".table_accrodion_content_d").innerHTML = arrclass_info;
+                    $(".table_accrodion_content1").css("display", "");
+                    $(".table_accrodion_content_d").html(test);
+                } else {
+                    $(".table_accrodion_content1").css("display", "none");
+                }
             });
         });
-        // function click_table() {
-        //     alert("클릭");
-        // }
     </script>
     
     <div id="section">
@@ -79,7 +73,7 @@
                 </tr>
                 <tr class="table_accrodion_content1" style="display:none;">
                     <td colspan="5" class="table_accrodion_content_d">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt, maiores deserunt beatae exercitationem minima, qui unde fuga eveniet voluptatibus rem dignissimos, illo mollitia accusamus. Porro qui rerum molestias corrupti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt, maiores deserunt beatae exercitationem minima, qui unde fuga eveniet voluptatibus rem dignissimos, illo mollitia accusamus. Porro qui rerum molestias corrupti.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt, maiores deserunt beatae exercitationem minima, qui unde fuga eveniet voluptatibus rem dignissimos, illo mollitia accusamus. Porro qui rerum molestias corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat necessitatibus ex doloribus facere neque ut optio repudiandae aut praesentium eum recusandae fugiat dolorem non minima, sed fuga beatae. Commodi.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quaerat necessitatibus ex doloribus facere neque ut optio repudiandae aut praesentium eum recusandae fugiat dolorem non minima, sed fuga beatae. Commodi.
                     
                     </td>
                 </tr>

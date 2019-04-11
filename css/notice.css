@@ -32,7 +32,7 @@
     margin:0px 10px;
 }        
 #section .container{ width:100%; margin:0px;}
-@media screen and (max-width:768px ) {
+/* @media screen and (max-width:768px ) {
     #section .container{ width:100%;
     margin : 0px}
-}     
+}      */
