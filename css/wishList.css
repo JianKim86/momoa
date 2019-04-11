@@ -1,4 +1,10 @@
 
+.wishWrap{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 69px;
+}
+
 #textbox .itemtype{
     font-size: 20px;
     line-height: 1px; 

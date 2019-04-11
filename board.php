@@ -74,7 +74,7 @@
 				</tr>
 				<tr >
 					<td class="en">1</td>
-					<td class="thumb"><a href="https://annaparis.kr/product/bibi-enamel-slingback/567/category/45/display/1/"><img src="images/20190405135926.jpg" ></a></td>
+					<td class="thumb"><a href="http://commodity.co.kr/product/detail.html?product_no=624&cate_no=25&display_group=1"><img src="images/20190405135926.jpg" ></a></td>
 					<td class="subject text-left">
 						 <a href="">문의합니다</a> <span> (1)</span>
 					</td>
