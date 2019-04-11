@@ -22,3 +22,6 @@ check_id.php - 회원가입시 register.php의 id_dbcheck()에서 ajax로 id 중복 체크하�
 1.sql 조건문으로 넘어온 id가 있는지 DB에서 확인
 2.결과 값의 줄 수를 count해서 넘겨 줌
 3.register.php 
+
+notice.php - 공지 사항
+1.각 항목을 클릭하면 none으로 설정한 tr의 display를 ""으로 바꿔서 내용을 보여줍니다.
