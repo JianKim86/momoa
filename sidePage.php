@@ -77,9 +77,9 @@
             </div>
                
             <div class="item-info">
-               <a><p><strong id="item-name"><?php echo $value['name']; ?></strong></p></a>
+               <a><p><strong id="item-name" onclick="javascript:location.href='<?php echo $value['url']; ?>';"><?php echo $value['name']; ?></strong></p></a>
                <p id="item-price"><span><strong><?php echo $value['price']; ?></strong></span></p>
-               <a><p><strong id="shop-name"><?php echo $value['shopname']; ?></strong></p></a>
+               <a><p><strong id="shop-name" onclick="javascript:location.href='<?php echo $value['url']; ?>';"><?php echo $value['shopname']; ?></strong></p></a>
             </div>
             
             </div>

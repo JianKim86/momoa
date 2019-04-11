@@ -1,0 +1,30 @@
+
+서버 Data
+
+1. 서버에서 data를 json형식으로 받아와 파싱.
+
+2. gird를 아이템 갯수만큼 반복하여 생성하고 서버에서 받아온 data를 각 요소에 배치.
+
+----------
+
+
+기능 설명
+
+
+1. 링크 연결 : 이미지, 상품명, 쇼핑몰의 이름을 누르면 onclick이 발동하여 해당 아이템 링크로 이동한다.
+코드 - onclick="javascript:location.href='<?php echo $value['url']; ?>';"
+
+2. 좋아요 : aria-hidden="true"를 주어서 평소에는 숨어있다가, hover-div가 hover 되면 뜬다.
+
+sidePage.js에서의 익명 클래스를 통해 좋아요(♡)의 동적인 화면
+
+ 
+
+
+변경된 파일명
+
+sidePage.php
+
+sidePage.css
+
+sidePage.js
