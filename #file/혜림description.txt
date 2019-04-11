@@ -14,3 +14,45 @@ Resister(회원가입)
 WishList
 1. 부트스트랩(CDN) 사용하여 table 구성, 하단에 pagination으로 페이지 번호 구성
 2. 상품정보의 사러가기 버튼을 누르면 해당 쇼핑몰 링크로 연결 
+
+
+
+-----------------------------------------[ github First Commit 이후 변화 사항]
+
+
+momoa/#file/
+혜림description.txt : description 추가
+
+
+momoa/css/
+board.css 추가
+board_write.css 추가
+default.css 추가
+wishList.css 추가(.wishWrap 추가)
+
+
+momoa/images/
+20190405132218.jpg
+20190405132601.jpg
+20190405132948.jpg
+20190405133208.jpg
+20190405135926.jpg
+board_secret.png
+
+
+momoa/js/
+board_write.js 추가
+
+
+momoa
+board.php (include, board_ex.html를 php로)
+board_ex.html
+board_write.php (include, board_write_ex.html를 php로)
+board_write_ex.html
+login.php
+nav.php
+wishList.php ( <div class="wishWrap"> 추가 )
+
+
+
+
