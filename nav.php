@@ -115,8 +115,10 @@
 					<li class = "cursor_p" onclick="changePage(1);"><span>TOP</span></li>
 					<li class = "cursor_p" onclick="changePage(2);"><span>BOTTOM</span></li>
 					<li class = "cursor_p" onclick="changePage(3);"><span>OUTER</span></li>
-					<li class = "cursor_p" onclick="changePage(4);"><span>DRESS</span></li>
+					<li class = "cursor_p" onclick="changePage(4);"><span>ONEPIECE</span></li>
 					<li class = "cursor_p" onclick="changePage(5);"><span>SHOES</span></li>
+					<li class = "cursor_p" onclick="changePage(8);"><span>공지사항</span></li>
+					<li class = "cursor_p" onclick="changePage(9);"><span>문의하기</span></li>
 				</ul>
 			</div>
 		</div>
@@ -126,11 +128,13 @@
 				<li class = "cursor_p" onclick="changePage(1);"><span>TOP</span></li>
 				<li class = "cursor_p" onclick="changePage(2);"><span>BOTTOM</span></li>
 				<li class = "cursor_p" onclick="changePage(3);"><span>OUTER</span></li>
-				<li class = "cursor_p" onclick="changePage(4);"><span>DRESS</span></li>
+				<li class = "cursor_p" onclick="changePage(4);"><span>ONEPIECE</span></li>
 				<li class = "cursor_p" onclick="changePage(5);"><span>SHOES</span></li>			
 				<li class = "cursor_p" onclick="changePage(7);"><span>WISH LIST</span></li>	
+				<li class = "cursor_p" onclick="changePage(8);"><span>공지사항</span></li>
+				<li class = "cursor_p" onclick="changePage(9);"><span>문의하기</span></li>
 			</ul>
 		</nav>
-	
+		<div id="section">
 
 			

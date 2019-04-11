@@ -6,6 +6,7 @@
 // 주소에 디비에서 불러올 정보의 키값을 파라미터로 보냄 
 // key ='top','bottom','outer','onepiece','shoes'
 // 나머지 : mainPage, login, wishList 
+// 추가 : notice,board
 
 /***********************************************************************/
 
@@ -20,6 +21,8 @@
 			case 0: location.href ="mainPage.php"; break;
 			case 6: location.href ="login.php"; break;
 			case 7: location.href ="wishList.php"; break;
+			case 8: location.href ="notice.php"; break;
+			case 9: location.href ="board.php"; break;
 			}
 		}
 
