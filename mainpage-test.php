@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang='ko' >
+<html lang='ko' class="no-js">
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
 
-		<title>momoA - MainPage</title>
+		<title>test</title>
 
 		<link rel="stylesheet" type="text/css" href="./css/nav/nav.css">
 		<link rel="stylesheet" type="text/css" href="./css/nav/hamburgers.min.css">
@@ -17,15 +17,11 @@
 		<link rel="stylesheet" type="text/css" href="./lib/jquery.mhead.css">
 		<script type="text/javascript" src="./lib/jquery.mhead.js"></script>
 		<script src="./js/default.js"></script>
-
-
-    <!--개인연결-->
-    
+		
     <link rel="stylesheet" type="text/css" media="screen" href="./css/mainPage.css">
 
     <script src="./lib/js/swiper.min.js"></script>
 		<link rel="stylesheet" href="./lib/css/swiper.min.css">
-    <script type="text/javascript" src="./lib/js/jquery.cookie.js"></script>
     <script src="https://use.fontawesome.com/7ad89d9866.js"></script>
     <script type="text/javascript" src="./lib/js/jquery.cookie.js"></script>
 

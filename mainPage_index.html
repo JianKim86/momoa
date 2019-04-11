@@ -754,136 +754,136 @@
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-     });
+    });
 
-// //item 설정********************************************************************************************
+//item 설정********************************************************************************************
 
-//   $(function(){
-//   // DB에서 정보 받아오기
-// arrclass_info='[{"num":"1","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132218.jpg","name":"kingston mtm","price":"27,000","url":"https://annaparis.kr/product/kingston-mtm/545/category/25/display/1/","date":"20190405132218","visible":"Y"},{"num":"2","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132322.jpg","name":"art tee ","price":"28,000","url":"https://annaparis.kr/product/art-tee/544/category/25/display/1/","date":"20190405132322","visible":"Y"},{"num":"3","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132412.jpg","name":"u-neck tee","price":"18,000","url":"https://annaparis.kr/product/u-neck-tee/506/category/25/display/1/","date":"20190405132412","visible":"Y"},{"num":"4","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132442.jpg","name":"less cotton tee","price":"23,000","url":"https://annaparis.kr/product/less-cotton-tee/501/category/25/display/1/","date":"20190405132442","visible":"Y"},{"num":"5","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132516.jpg","name":"mamalade mtm","price":"30,000","url":"https://annaparis.kr/product/mamalade-mtm/487/category/25/display/1/","date":"20190405132516","visible":"Y"},{"num":"6","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132601.jpg","name":"soho banding cotton pt","price":"33,000","url":"https://annaparis.kr/product/soho-banding-cotton-pt/548/category/28/display/1/","date":"20190405132601","visible":"Y"},{"num":"7","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132637.jpg","name":"cream pintuck wide slacks","price":"36,000","url":"https://annaparis.kr/product/cream-pintuck-wide-slacks/502/category/28/display/1/","date":"20190405132637","visible":"Y"},{"num":"8","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132701.jpg","name":"span cotton pants","price":"33,000","url":"https://annaparis.kr/product/span-cotton-pants/463/category/28/display/1/","date":"20190405132701","visible":"Y"},{"num":"9","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132736.jpg","name":"robin banding slacks","price":"34,000","url":"https://annaparis.kr/product/robin-banding-slacks/435/category/28/display/1/","date":"20190405132736","visible":"Y"},{"num":"10","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132806.jpg","name":"coco basic slacks","price":"28,000","url":"https://annaparis.kr/product/coco-basic-slacks/309/category/28/display/1/","date":"20190405132806","visible":"Y"},{"num":"11","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405132948.jpg","name":"slit single jacket","price":"63,000","url":"https://annaparis.kr/product/slit-single-jacket/540/category/24/display/1/","date":"20190405132948","visible":"Y"},{"num":"12","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133012.jpg","name":"edition jacket","price":"96,000","url":"https://annaparis.kr/product/edition-jacket/532/category/24/display/1/","date":"20190405133012","visible":"Y"},{"num":"13","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133038.jpg","name":"custom check jacket","price":"60,000","url":"https://annaparis.kr/product/custom-check-jacket/499/category/24/display/1/","date":"20190405133038","visible":"Y"},{"num":"14","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133057.jpg","name":"daily denim jacket","price":"62,000","url":"https://annaparis.kr/product/custom-check-jacket/499/category/24/display/1/","date":"20190405133057","visible":"Y"},{"num":"15","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133119.jpg","name":"check belt jacket","price":"57,000","url":"https://annaparis.kr/product/check-belt-jacket/484/category/24/display/1/","date":"20190405133119","visible":"Y"},{"num":"16","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133208.jpg","name":"bibi enamel slingback","price":"40,000","url":"https://annaparis.kr/product/bibi-enamel-slingback/567/category/45/display/1/","date":"20190405133208","visible":"Y"},{"num":"18","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133432.jpg","name":"grace slingback","price":"40,000","url":"https://annaparis.kr/product/grace-slingback/537/category/45/display/1/","date":"20190405133432","visible":"Y"},{"num":"17","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133251.jpg","name":"germany bloafer","price":"46,000","url":"https://annaparis.kr/product/germany-bloafer/552/category/45/display/1/","date":"20190405133251","visible":"Y"},{"num":"19","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133454.jpg","name":"circle middle heel","price":"40,000","url":"https://annaparis.kr/product/circle-middle-heel/536/category/45/display/1/","date":"20190405133454","visible":"Y"},{"num":"20","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133520.jpg","name":"side cutting heel","price":"34,000","url":"https://annaparis.kr/product/side-cutting-heel/469/category/45/display/1/","date":"20190405133520","visible":"Y"},{"num":"21","type":"top","shopname":"코모디티","filepath":"uploads/20190405135926.jpg","name":"셔링끈 블라우스","price":"15,500","url":"http://commodity.co.kr/product/detail.html?product_no=624&cate_no=25&display_group=1","date":"20190405135926","visible":"Y"},{"num":"22","type":"top","shopname":"코모디티","filepath":"uploads/20190405135957.jpg","name":"풍선껌 커플맨투맨","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=623&cate_no=25&display_group=1","date":"20190405135957","visible":"Y"},{"num":"23","type":"top","shopname":"코모디티","filepath":"uploads/20190405140030.jpg","name":"심플카라 숏가디건","price":"21,000","url":"http://commodity.co.kr/product/detail.html?product_no=621&cate_no=25&display_group=1","date":"20190405140030","visible":"Y"},{"num":"24","type":"top","shopname":"코모디티","filepath":"uploads/20190405140048.jpg","name":"브이넥 셔링블라우스","price":"18,500","url":"http://commodity.co.kr/product/detail.html?product_no=595&cate_no=25&display_group=1","date":"20190405140048","visible":"Y"},{"num":"25","type":"top","shopname":"코모디티","filepath":"uploads/20190405140118.jpg","name":"꽃프릴 소녀블라우스","price":"28,000","url":"http://commodity.co.kr/product/detail.html?product_no=587&cate_no=25&display_group=1","date":"20190405140118","visible":"Y"},{"num":"26","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140359.jpg","name":"베이직 롱스커트","price":"22,320","url":"http://commodity.co.kr/product/detail.html?product_no=641&cate_no=70&display_group=1","date":"20190405140359","visible":"Y"},{"num":"27","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140415.jpg","name":"소프트 플라워 롱스커트","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=640&cate_no=70&display_group=1","date":"20190405140415","visible":"Y"},{"num":"28","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140438.jpg","name":"플라워 레이스스커트","price":"26,500","url":"http://commodity.co.kr/product/detail.html?product_no=630&cate_no=70&display_group=1","date":"20190405140438","visible":"Y"},{"num":"29","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140500.jpg","name":"파스텔 플레어 치마바지","price":"20,000","url":"http://commodity.co.kr/product/detail.html?product_no=592&cate_no=70&display_group=1","date":"20190405140500","visible":"Y"},{"num":"30","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140524.jpg","name":"플레어 미니스커트","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=578&cate_no=70&display_group=1","date":"20190405140524","visible":"Y"},{"num":"31","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140856.jpg","name":"오버 스트라이프자켓","price":"39,900","url":"http://commodity.co.kr/product/detail.html?product_no=632&cate_no=24&display_group=1","date":"20190405140856","visible":"Y"},{"num":"32","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140913.jpg","name":"비죠 숏자켓","price":"49,900","url":"http://commodity.co.kr/product/detail.html?product_no=629&cate_no=24&display_group=1","date":"20190405140913","visible":"Y"},{"num":"33","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140932.jpg","name":"오버 후드항공점퍼","price":"36,000","url":"http://commodity.co.kr/product/detail.html?product_no=620&cate_no=24&display_group=1","date":"20190405140932","visible":"Y"},{"num":"34","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140951.jpg","name":"포멀 데일리자켓","price":"42,900","url":"http://commodity.co.kr/product/detail.html?product_no=617&cate_no=24&display_group=1","date":"20190405140951","visible":"Y"},{"num":"35","type":"outer","shopname":"코모디티","filepath":"uploads/20190405141007.jpg","name":"오버싱글 트렌치코트","price":"45,900","url":"http://commodity.co.kr/product/detail.html?product_no=616&cate_no=24&display_group=1","date":"20190405141007","visible":"Y"},{"num":"36","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141436.jpg","name":"브이 랩원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=639&cate_no=26&display_group=1","date":"20190405141436","visible":"Y"},{"num":"37","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141457.jpg","name":"로즈플라워 랩원피스","price":"28,000","url":"http://commodity.co.kr/product/detail.html?product_no=635&cate_no=26&display_group=1","date":"20190405141457","visible":"Y"},{"num":"38","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141519.jpg","name":"양프릴 플라워원피스","price":"26,500","url":"http://commodity.co.kr/product/detail.html?product_no=588&cate_no=26&display_group=1","date":"20190405141519","visible":"Y"},{"num":"39","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141542.jpg","name":"주름 플라워 원피스","price":"41,500","url":"http://commodity.co.kr/product/detail.html?product_no=584&cate_no=26&display_group=1","date":"20190405141542","visible":"Y"},{"num":"40","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141558.jpg","name":"쉐이크 프릴원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=573&cate_no=26&display_group=1","date":"20190405141558","visible":"Y"},{"num":"41","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141620.jpg","name":"심플 뷔스티에 원피스","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=568&cate_no=26&display_group=1","date":"20190405141620","visible":"Y"},{"num":"42","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141635.jpg","name":"플레어치마 세트","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=566&cate_no=26&display_group=1","date":"20190405141635","visible":"Y"},{"num":"43","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141653.jpg","name":"레몬티 원피스","price":"41,900","url":"http://commodity.co.kr/product/detail.html?product_no=563&cate_no=26&display_group=1","date":"20190405141653","visible":"Y"},{"num":"44","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141713.jpg","name":"플라워 랩주름 원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=554&cate_no=26&display_group=1","date":"20190405141713","visible":"Y"},{"num":"45","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141730.jpg","name":"셋업나리투피스","price":"39,900","url":"http://commodity.co.kr/product/detail.html?product_no=553&cate_no=26&display_group=1","date":"20190405141730","visible":"Y"},{"num":"46","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142203.jpg","name":"라틴감성 플랫슈즈","price":"29,920","url":"http://commodity.co.kr/product/detail.html?product_no=642&cate_no=92&display_group=1","date":"20190405142203","visible":"Y"},{"num":"47","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142220.jpg","name":"스퀘어링 미들로퍼","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=638&cate_no=92&display_group=1","date":"20190405142220","visible":"Y"},{"num":"48","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142247.jpg","name":"베이직 리본 플랫슈즈","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=637&cate_no=92&display_group=1","date":"20190405142247","visible":"Y"},{"num":"49","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142309.jpg","name":"메리제인 플랫슈즈","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=634&cate_no=92&display_group=1","date":"20190405142309","visible":"Y"},{"num":"50","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142343.jpg","name":"에나멜 메리제인 펌프스힐(4.7cm)","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=429&cate_no=92&display_group=1","date":"20190405142343","visible":"Y"}]';
+  $(function(){
+  // DB에서 정보 받아오기
+arrclass_info='[{"num":"1","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132218.jpg","name":"kingston mtm","price":"27,000","url":"https://annaparis.kr/product/kingston-mtm/545/category/25/display/1/","date":"20190405132218","visible":"Y"},{"num":"2","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132322.jpg","name":"art tee ","price":"28,000","url":"https://annaparis.kr/product/art-tee/544/category/25/display/1/","date":"20190405132322","visible":"Y"},{"num":"3","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132412.jpg","name":"u-neck tee","price":"18,000","url":"https://annaparis.kr/product/u-neck-tee/506/category/25/display/1/","date":"20190405132412","visible":"Y"},{"num":"4","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132442.jpg","name":"less cotton tee","price":"23,000","url":"https://annaparis.kr/product/less-cotton-tee/501/category/25/display/1/","date":"20190405132442","visible":"Y"},{"num":"5","type":"top","shopname":"안나파리스","filepath":"uploads/20190405132516.jpg","name":"mamalade mtm","price":"30,000","url":"https://annaparis.kr/product/mamalade-mtm/487/category/25/display/1/","date":"20190405132516","visible":"Y"},{"num":"6","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132601.jpg","name":"soho banding cotton pt","price":"33,000","url":"https://annaparis.kr/product/soho-banding-cotton-pt/548/category/28/display/1/","date":"20190405132601","visible":"Y"},{"num":"7","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132637.jpg","name":"cream pintuck wide slacks","price":"36,000","url":"https://annaparis.kr/product/cream-pintuck-wide-slacks/502/category/28/display/1/","date":"20190405132637","visible":"Y"},{"num":"8","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132701.jpg","name":"span cotton pants","price":"33,000","url":"https://annaparis.kr/product/span-cotton-pants/463/category/28/display/1/","date":"20190405132701","visible":"Y"},{"num":"9","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132736.jpg","name":"robin banding slacks","price":"34,000","url":"https://annaparis.kr/product/robin-banding-slacks/435/category/28/display/1/","date":"20190405132736","visible":"Y"},{"num":"10","type":"bottom","shopname":"안나파리스","filepath":"uploads/20190405132806.jpg","name":"coco basic slacks","price":"28,000","url":"https://annaparis.kr/product/coco-basic-slacks/309/category/28/display/1/","date":"20190405132806","visible":"Y"},{"num":"11","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405132948.jpg","name":"slit single jacket","price":"63,000","url":"https://annaparis.kr/product/slit-single-jacket/540/category/24/display/1/","date":"20190405132948","visible":"Y"},{"num":"12","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133012.jpg","name":"edition jacket","price":"96,000","url":"https://annaparis.kr/product/edition-jacket/532/category/24/display/1/","date":"20190405133012","visible":"Y"},{"num":"13","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133038.jpg","name":"custom check jacket","price":"60,000","url":"https://annaparis.kr/product/custom-check-jacket/499/category/24/display/1/","date":"20190405133038","visible":"Y"},{"num":"14","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133057.jpg","name":"daily denim jacket","price":"62,000","url":"https://annaparis.kr/product/custom-check-jacket/499/category/24/display/1/","date":"20190405133057","visible":"Y"},{"num":"15","type":"outer","shopname":"안나파리스","filepath":"uploads/20190405133119.jpg","name":"check belt jacket","price":"57,000","url":"https://annaparis.kr/product/check-belt-jacket/484/category/24/display/1/","date":"20190405133119","visible":"Y"},{"num":"16","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133208.jpg","name":"bibi enamel slingback","price":"40,000","url":"https://annaparis.kr/product/bibi-enamel-slingback/567/category/45/display/1/","date":"20190405133208","visible":"Y"},{"num":"18","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133432.jpg","name":"grace slingback","price":"40,000","url":"https://annaparis.kr/product/grace-slingback/537/category/45/display/1/","date":"20190405133432","visible":"Y"},{"num":"17","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133251.jpg","name":"germany bloafer","price":"46,000","url":"https://annaparis.kr/product/germany-bloafer/552/category/45/display/1/","date":"20190405133251","visible":"Y"},{"num":"19","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133454.jpg","name":"circle middle heel","price":"40,000","url":"https://annaparis.kr/product/circle-middle-heel/536/category/45/display/1/","date":"20190405133454","visible":"Y"},{"num":"20","type":"shoes","shopname":"안나파리스","filepath":"uploads/20190405133520.jpg","name":"side cutting heel","price":"34,000","url":"https://annaparis.kr/product/side-cutting-heel/469/category/45/display/1/","date":"20190405133520","visible":"Y"},{"num":"21","type":"top","shopname":"코모디티","filepath":"uploads/20190405135926.jpg","name":"셔링끈 블라우스","price":"15,500","url":"http://commodity.co.kr/product/detail.html?product_no=624&cate_no=25&display_group=1","date":"20190405135926","visible":"Y"},{"num":"22","type":"top","shopname":"코모디티","filepath":"uploads/20190405135957.jpg","name":"풍선껌 커플맨투맨","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=623&cate_no=25&display_group=1","date":"20190405135957","visible":"Y"},{"num":"23","type":"top","shopname":"코모디티","filepath":"uploads/20190405140030.jpg","name":"심플카라 숏가디건","price":"21,000","url":"http://commodity.co.kr/product/detail.html?product_no=621&cate_no=25&display_group=1","date":"20190405140030","visible":"Y"},{"num":"24","type":"top","shopname":"코모디티","filepath":"uploads/20190405140048.jpg","name":"브이넥 셔링블라우스","price":"18,500","url":"http://commodity.co.kr/product/detail.html?product_no=595&cate_no=25&display_group=1","date":"20190405140048","visible":"Y"},{"num":"25","type":"top","shopname":"코모디티","filepath":"uploads/20190405140118.jpg","name":"꽃프릴 소녀블라우스","price":"28,000","url":"http://commodity.co.kr/product/detail.html?product_no=587&cate_no=25&display_group=1","date":"20190405140118","visible":"Y"},{"num":"26","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140359.jpg","name":"베이직 롱스커트","price":"22,320","url":"http://commodity.co.kr/product/detail.html?product_no=641&cate_no=70&display_group=1","date":"20190405140359","visible":"Y"},{"num":"27","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140415.jpg","name":"소프트 플라워 롱스커트","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=640&cate_no=70&display_group=1","date":"20190405140415","visible":"Y"},{"num":"28","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140438.jpg","name":"플라워 레이스스커트","price":"26,500","url":"http://commodity.co.kr/product/detail.html?product_no=630&cate_no=70&display_group=1","date":"20190405140438","visible":"Y"},{"num":"29","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140500.jpg","name":"파스텔 플레어 치마바지","price":"20,000","url":"http://commodity.co.kr/product/detail.html?product_no=592&cate_no=70&display_group=1","date":"20190405140500","visible":"Y"},{"num":"30","type":"bottom","shopname":"코모디티","filepath":"uploads/20190405140524.jpg","name":"플레어 미니스커트","price":"23,500","url":"http://commodity.co.kr/product/detail.html?product_no=578&cate_no=70&display_group=1","date":"20190405140524","visible":"Y"},{"num":"31","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140856.jpg","name":"오버 스트라이프자켓","price":"39,900","url":"http://commodity.co.kr/product/detail.html?product_no=632&cate_no=24&display_group=1","date":"20190405140856","visible":"Y"},{"num":"32","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140913.jpg","name":"비죠 숏자켓","price":"49,900","url":"http://commodity.co.kr/product/detail.html?product_no=629&cate_no=24&display_group=1","date":"20190405140913","visible":"Y"},{"num":"33","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140932.jpg","name":"오버 후드항공점퍼","price":"36,000","url":"http://commodity.co.kr/product/detail.html?product_no=620&cate_no=24&display_group=1","date":"20190405140932","visible":"Y"},{"num":"34","type":"outer","shopname":"코모디티","filepath":"uploads/20190405140951.jpg","name":"포멀 데일리자켓","price":"42,900","url":"http://commodity.co.kr/product/detail.html?product_no=617&cate_no=24&display_group=1","date":"20190405140951","visible":"Y"},{"num":"35","type":"outer","shopname":"코모디티","filepath":"uploads/20190405141007.jpg","name":"오버싱글 트렌치코트","price":"45,900","url":"http://commodity.co.kr/product/detail.html?product_no=616&cate_no=24&display_group=1","date":"20190405141007","visible":"Y"},{"num":"36","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141436.jpg","name":"브이 랩원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=639&cate_no=26&display_group=1","date":"20190405141436","visible":"Y"},{"num":"37","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141457.jpg","name":"로즈플라워 랩원피스","price":"28,000","url":"http://commodity.co.kr/product/detail.html?product_no=635&cate_no=26&display_group=1","date":"20190405141457","visible":"Y"},{"num":"38","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141519.jpg","name":"양프릴 플라워원피스","price":"26,500","url":"http://commodity.co.kr/product/detail.html?product_no=588&cate_no=26&display_group=1","date":"20190405141519","visible":"Y"},{"num":"39","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141542.jpg","name":"주름 플라워 원피스","price":"41,500","url":"http://commodity.co.kr/product/detail.html?product_no=584&cate_no=26&display_group=1","date":"20190405141542","visible":"Y"},{"num":"40","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141558.jpg","name":"쉐이크 프릴원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=573&cate_no=26&display_group=1","date":"20190405141558","visible":"Y"},{"num":"41","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141620.jpg","name":"심플 뷔스티에 원피스","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=568&cate_no=26&display_group=1","date":"20190405141620","visible":"Y"},{"num":"42","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141635.jpg","name":"플레어치마 세트","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=566&cate_no=26&display_group=1","date":"20190405141635","visible":"Y"},{"num":"43","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141653.jpg","name":"레몬티 원피스","price":"41,900","url":"http://commodity.co.kr/product/detail.html?product_no=563&cate_no=26&display_group=1","date":"20190405141653","visible":"Y"},{"num":"44","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141713.jpg","name":"플라워 랩주름 원피스","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=554&cate_no=26&display_group=1","date":"20190405141713","visible":"Y"},{"num":"45","type":"onepiece","shopname":"코모디티","filepath":"uploads/20190405141730.jpg","name":"셋업나리투피스","price":"39,900","url":"http://commodity.co.kr/product/detail.html?product_no=553&cate_no=26&display_group=1","date":"20190405141730","visible":"Y"},{"num":"46","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142203.jpg","name":"라틴감성 플랫슈즈","price":"29,920","url":"http://commodity.co.kr/product/detail.html?product_no=642&cate_no=92&display_group=1","date":"20190405142203","visible":"Y"},{"num":"47","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142220.jpg","name":"스퀘어링 미들로퍼","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=638&cate_no=92&display_group=1","date":"20190405142220","visible":"Y"},{"num":"48","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142247.jpg","name":"베이직 리본 플랫슈즈","price":"24,900","url":"http://commodity.co.kr/product/detail.html?product_no=637&cate_no=92&display_group=1","date":"20190405142247","visible":"Y"},{"num":"49","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142309.jpg","name":"메리제인 플랫슈즈","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=634&cate_no=92&display_group=1","date":"20190405142309","visible":"Y"},{"num":"50","type":"shoes","shopname":"코모디티","filepath":"uploads/20190405142343.jpg","name":"에나멜 메리제인 펌프스힐(4.7cm)","price":"29,900","url":"http://commodity.co.kr/product/detail.html?product_no=429&cate_no=92&display_group=1","date":"20190405142343","visible":"Y"}]';
 
 
-// //array객체로
-// var item_array=JSON.parse(arrclass_info);
+//array객체로
+var item_array=JSON.parse(arrclass_info);
 
-//     //최신순 정렬
-//     item_array=item_array.sort(function(a,b){
-//       return parseFloat(b.date) - parseFloat(a.date);
-//     });
+    //최신순 정렬
+    item_array=item_array.sort(function(a,b){
+      return parseFloat(b.date) - parseFloat(a.date);
+    });
 
-//     var cnt0=0;
-//     var cnt1=0;
-//     var cnt2=0;
-//     var cnt3=0;
-//     var cnt4=0;
-//     var cnt5=0;
+    var cnt0=0;
+    var cnt1=0;
+    var cnt2=0;
+    var cnt3=0;
+    var cnt4=0;
+    var cnt5=0;
 
-//   for(var i=0 ; i<item_array.length; i++){
-//     var item=item_array[i];
+  for(var i=0 ; i<item_array.length; i++){
+    var item=item_array[i];
    
-//     if(item.visible==="Y" && cnt0<4 ){
-//       $('.arrive').find('.vals')[cnt0].value=item.url;
-//       $('.arrive').find('.itemimg')[cnt0].src=item.filepath;
-//       $('.arrive').find('.itemname')[cnt0].innerHTML=item.name;
-//       $('.arrive').find('.itemprice')[cnt0].innerHTML=item.price;
-//       $('.arrive').find('.itemshop')[cnt0].innerHTML=item.shopname;
-//       cnt0++;
-//     }
+    if(item.visible==="Y" && cnt0<4 ){
+      $('.arrive').find('.vals')[cnt0].value=item.url;
+      $('.arrive').find('.itemimg')[cnt0].src=item.filepath;
+      $('.arrive').find('.itemname')[cnt0].innerHTML=item.name;
+      $('.arrive').find('.itemprice')[cnt0].innerHTML=item.price;
+      $('.arrive').find('.itemshop')[cnt0].innerHTML=item.shopname;
+      cnt0++;
+    }
     
-//     if(item.visible==="Y" && item.type ==="top" && cnt1<4){
-//       $('.type1').find('.vals')[cnt1].value=item.url;
-//       $('.type1').find('.itemimg')[cnt1].src=item.filepath;
-//       $('.type1').find('.itemname')[cnt1].innerHTML=item.name;
-//       $('.type1').find('.itemprice')[cnt1].innerHTML=item.price;
-//       $('.type1').find('.itemshop')[cnt1].innerHTML=item.shopname;
+    if(item.visible==="Y" && item.type ==="top" && cnt1<4){
+      $('.type1').find('.vals')[cnt1].value=item.url;
+      $('.type1').find('.itemimg')[cnt1].src=item.filepath;
+      $('.type1').find('.itemname')[cnt1].innerHTML=item.name;
+      $('.type1').find('.itemprice')[cnt1].innerHTML=item.price;
+      $('.type1').find('.itemshop')[cnt1].innerHTML=item.shopname;
 
-//       cnt1++;
-//     }else if(item.visible==="Y" && item.type ==="bottom" && cnt2<4){
-//       $('.type2').find('.vals')[cnt2].value=item.url;
-//       $('.type2').find('.itemimg')[cnt2].src=item.filepath;
-//       $('.type2').find('.itemname')[cnt2].innerHTML=item.name;
-//       $('.type2').find('.itemprice')[cnt2].innerHTML=item.price;
-//       $('.type2').find('.itemshop')[cnt2].innerHTML=item.shopname;
-//       cnt2++;
-//     }else if(item.visible==="Y" && item.type ==="outer" && cnt3<4){
-//       $('.type3').find('.vals')[cnt3].value=item.url;
-//       $('.type3').find('.itemimg')[cnt3].src=item.filepath;
-//       $('.type3').find('.itemname')[cnt3].innerHTML=item.name;
-//       $('.type3').find('.itemprice')[cnt3].innerHTML=item.price;
-//       $('.type3').find('.itemshop')[cnt3].innerHTML=item.shopname;
-//       cnt3++;
-//     }else if(item.visible==="Y" && item.type ==="onepiece" && cnt4<4){
-//       $('.type4').find('.vals')[cnt4].value=item.url;
-//       $('.type4').find('.itemimg')[cnt4].src=item.filepath;
-//       $('.type4').find('.itemname')[cnt4].innerHTML=item.name;
-//       $('.type4').find('.itemprice')[cnt4].innerHTML=item.price;
-//       $('.type4').find('.itemshop')[cnt4].innerHTML=item.shopname;
-//       cnt4++;
-//     }else if(item.visible==="Y" && item.type ==="shoes" && cnt5<4){
-//       $('.type5').find('.vals')[cnt5].value=item.url;
-//       $('.type5').find('.itemimg')[cnt5].src=item.filepath;
-//       $('.type5').find('.itemname')[cnt5].innerHTML=item.name;
-//       $('.type5').find('.itemprice')[cnt5].innerHTML=item.price;
-//       $('.type5').find('.itemshop')[cnt5].innerHTML=item.shopname;
-//       cnt5++;
-//     }
+      cnt1++;
+    }else if(item.visible==="Y" && item.type ==="bottom" && cnt2<4){
+      $('.type2').find('.vals')[cnt2].value=item.url;
+      $('.type2').find('.itemimg')[cnt2].src=item.filepath;
+      $('.type2').find('.itemname')[cnt2].innerHTML=item.name;
+      $('.type2').find('.itemprice')[cnt2].innerHTML=item.price;
+      $('.type2').find('.itemshop')[cnt2].innerHTML=item.shopname;
+      cnt2++;
+    }else if(item.visible==="Y" && item.type ==="outer" && cnt3<4){
+      $('.type3').find('.vals')[cnt3].value=item.url;
+      $('.type3').find('.itemimg')[cnt3].src=item.filepath;
+      $('.type3').find('.itemname')[cnt3].innerHTML=item.name;
+      $('.type3').find('.itemprice')[cnt3].innerHTML=item.price;
+      $('.type3').find('.itemshop')[cnt3].innerHTML=item.shopname;
+      cnt3++;
+    }else if(item.visible==="Y" && item.type ==="onepiece" && cnt4<4){
+      $('.type4').find('.vals')[cnt4].value=item.url;
+      $('.type4').find('.itemimg')[cnt4].src=item.filepath;
+      $('.type4').find('.itemname')[cnt4].innerHTML=item.name;
+      $('.type4').find('.itemprice')[cnt4].innerHTML=item.price;
+      $('.type4').find('.itemshop')[cnt4].innerHTML=item.shopname;
+      cnt4++;
+    }else if(item.visible==="Y" && item.type ==="shoes" && cnt5<4){
+      $('.type5').find('.vals')[cnt5].value=item.url;
+      $('.type5').find('.itemimg')[cnt5].src=item.filepath;
+      $('.type5').find('.itemname')[cnt5].innerHTML=item.name;
+      $('.type5').find('.itemprice')[cnt5].innerHTML=item.price;
+      $('.type5').find('.itemshop')[cnt5].innerHTML=item.shopname;
+      cnt5++;
+    }
 
-// }
-
-
-// });
+}
 
 
-
-// //hover-wishlist***************************************************************************************
-
-//     var isclicked=-1;
-
-//     $('.like-review').on("click",  function(e){
-
-//       e.stopPropagation();
+});
 
 
-//       if(isclicked<0){
-//         $(this).html('<i class="fa fa-heart" aria-hidden="true"></i>');
-//         $(this).children('.fa-heart').addClass('animate-like');
+
+//hover-wishlist***************************************************************************************
+
+    var isclicked=-1;
+
+    $('.like-review').on("click",  function(e){
+
+      e.stopPropagation();
+
+
+      if(isclicked<0){
+        $(this).html('<i class="fa fa-heart" aria-hidden="true"></i>');
+        $(this).children('.fa-heart').addClass('animate-like');
         
 
-//         //alert("좋아요");
-//         // 위시리스트 추가
-//         addWish();      
-//         isclicked=-isclicked;
+        //alert("좋아요");
+        // 위시리스트 추가
+        addWish();      
+        isclicked=-isclicked;
 
-//       }else if(isclicked>0){
-//         $(this).html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
+      }else if(isclicked>0){
+        $(this).html('<i class="fa fa-heart-o" aria-hidden="true"></i>');
 
-//         //위시리스트 제거
-//         removeWish();
-//         isclicked=-isclicked;
+        //위시리스트 제거
+        removeWish();
+        isclicked=-isclicked;
 
-//       }
-//     });
+      }
+    });
 
 
  
-//   // 좋아요 버튼 누른 해당 아이템을 Wish List에 저장
-//   function addWish(){
+  // 좋아요 버튼 누른 해당 아이템을 Wish List에 저장
+  function addWish(){
       
-//   }
+  }
 
-//   // 좋아요 버튼 누른 해당 아이템을 Wish List에 삭제
-//   function removeWish(){
+  // 좋아요 버튼 누른 해당 아이템을 Wish List에 삭제
+  function removeWish(){
 
-//   }    
+  }    
   
   
-//   //.itemlink인 요소를 누르면 해당 아이템의 상세 페이지로 이동
-//   function goShopPage(element){
+  //.itemlink인 요소를 누르면 해당 아이템의 상세 페이지로 이동
+  function goShopPage(element){
    
-//     var e= $(element).children().first();
-//     var url=e.val();
-//     window.open(url);
-//   }
+    var e= $(element).children().first();
+    var url=e.val();
+    window.open(url);
+  }
 
   </script>
 </body>
