@@ -29,6 +29,7 @@ board.css 추가
 board_write.css 추가
 default.css 추가
 wishList.css 추가(.wishWrap 추가)
+board_view.css 추가
 
 
 momoa/images/
@@ -52,7 +53,8 @@ board_write_ex.html
 login.php
 nav.php
 wishList.php ( <div class="wishWrap"> 추가 )
-
+board_view.php
+board_view_ex.html
 
 
 
