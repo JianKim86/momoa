@@ -131,6 +131,5 @@
 				<li class = "cursor_p" onclick="changePage(7);"><span>WISH LIST</span></li>	
 			</ul>
 		</nav>
-		<div id="section">
 
 			
