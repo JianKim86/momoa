@@ -14,24 +14,23 @@
     if(strcmp($sns, "Y") == 0) {
     } else {$sns = "N";}
         
-	echo "Type : $type<br/>";
-    echo "Id : $id<br/>";
-    echo "비번 : $pw<br/>";
-    echo "이름 : $name<br/>";
-    echo "생일 : $birth<br/>";
-    echo "HP : $hp<br/>";
-    echo "Email : $email<br/>";
-    echo "SNS : $sns<br/>";    
+	// echo "Type : $type<br/>";
+    // echo "Id : $id<br/>";
+    // echo "비번 : $pw<br/>";
+    // echo "이름 : $name<br/>";
+    // echo "생일 : $birth<br/>";
+    // echo "HP : $hp<br/>";
+    // echo "Email : $email<br/>";
+    // echo "SNS : $sns<br/>";    
 	
 	$conn = mysqli_connect("localhost", "toasthistory", "q1w2e3r4", "toasthistory");
 	mysqli_query($conn, "set names utf8");
     $sql = "insert into momoa_member(m_type, m_id, m_pw, m_name, m_birth, m_hp, m_email, m_sns)values ('$type','$id','$pw','$name','$birth','$hp','$email','$sns')";
 	$result = mysqli_query($conn, $sql);
-	
-	if($result) {
-		echo "insert success";
-	} else {
-		echo "insert fail";
-	}
+    
+    echo("<Script>\n <!--\n window.alert('회원가입이 완료됐습니다.')\n history.go(-2)\n -->\n </Script>\n");
+	// if($result) {
+	// 	echo("<Script>\n <!--\n history.go(-3)\n -->\n </Script>\n");
+	// }
 	mysqli_close($conn);
  ?>

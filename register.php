@@ -130,7 +130,7 @@
 			$('input:checkbox[name="m_sns"]').is(":checked") == true			
 			isgo = true; //여기까지 오면 완료
 			if(isgo) {
-				alert("회원 가입이 완료됐습니다.");
+				// alert("회원 가입이 완료됐습니다.");
 				$("form").submit();
 			}
 		};
@@ -244,7 +244,7 @@
 				</fieldset>
 				<div class="sand_register">
 					<a onclick="signIn()"><span>회원가입</span></a>
-					<a onclick="pageBack2()"><span>취소하기</span></a>
+					<a href="#메인페이지로추후연결"><span>취소하기</span></a>
 				</div>
 			</div>
 			

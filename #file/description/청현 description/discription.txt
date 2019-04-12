@@ -36,10 +36,14 @@ board_view.php
   등록 click : 폼태그를 포스트 방식으로 보냄(추후 유효성검사 필요) 
   취소 click : board.php로 이동
 
+흐름제어
+tabindex 이용
+role 사용
+
  
  
  
 
 
-
+1603
  
