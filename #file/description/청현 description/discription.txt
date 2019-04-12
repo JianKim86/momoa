@@ -1,0 +1,45 @@
+header.php 
+메타태그및 공통적으로 들어가는 링크 포함
+
+nav.php
+1_session 
+  php session으로 아이디 저장및 유지
+
+2_menu_screenTop 
+ css에 가상클레스를 만들고 outerHeight()와 scrollTop()를 사용하여 스크롤시 메뉴만 탑에 고정하도록 설계
+
+3_navForMobile576px 
+ mmenu,mhead 라이브러리를 이용 모바일시 해더 네비를 싸이드 네비로 변경 (삼선메뉴 클릭시 왼쪽 사이드에서 시작) 
+
+4_moveMenu
+ 메뉴 클릭시 get방식을 통해 key value를 url에 담아 보내고
+ 해당페이지에서 넘어오는 key값으로 DB조회 해당 데이터를 뿌리도록 설계
+ 로그인 클릭시 로그인 페이지로 이동
+ 위시리스트 클릭시 로그인상태를 체크하여 로그인 상태면 위시리스트로 아니면 로그인 페이지로 이동 
+
+5_logout
+ logout 버튼 클릭시 ajax로 session_destroy()로 세션을 지우고 화면 해더 뱃지 변경
+
+board.php
+6_board (추후 디비 설계 필요)
+ board.php : 부트스트랩을 이용한 레이아웃
+ 글쓰기 버튼 클릭시 board_write.php 로 이동
+
+board_write.php
+  item click : 해당 싸이트로 이동
+  subject click : 세부내용 페이지 레이아웃인 board_view.php로 이동 
+ 
+board_view.php 
+  상품택 click : type select > item name 순으로 select box 설계 
+  custom input tag , 크로스브라우징을 위한 인풋태그 커스터마이징
+  목록 click : board.php로 이동
+  등록 click : 폼태그를 포스트 방식으로 보냄(추후 유효성검사 필요) 
+  취소 click : board.php로 이동
+
+ 
+ 
+ 
+
+
+
+ 

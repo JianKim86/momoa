@@ -1,0 +1,15 @@
+Login 
+1. 아이디, 패스워드:  form태그에 POST 방식의 메소드를 사용하여 사용자 정보 노출 방지, 각 항목에 적합한 input type(text, pw) 적용
+2. 로그인 버튼의  onclick 에 signIn() 메소드 사용
+3. 회원가입 버튼 누르면 회원가입 페이지로 이동
+
+
+Resister(회원가입)
+1. 각 입력폼에 적합한  input type적용 ex)핸드폰 번호: number, maxlength,  이메일: select의 option, 생일:date 등
+2. 회원가입폼 작성 완료 하면  onclick="signIn() 발동, 취소하기는 메인페이지로 이동
+3. 유효성 검사 function checkReg() 
+
+
+WishList
+1. 부트스트랩(CDN) 사용하여 table 구성, 하단에 pagination으로 페이지 번호 구성
+2. 상품정보의 사러가기 버튼을 누르면 해당 쇼핑몰 링크로 연결 

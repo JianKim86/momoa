@@ -1,0 +1,130 @@
+.no-js { display:none; }
+.hide_span {display:none;}
+.margin_r10{margin-right: 10px;}
+.forTitle {margin-top: 64px!important;}
+.fTitle{font-size: 18px!important;}
+html, body
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: #fff;
+    font-family: Arial, Helvetica, Verdana;
+    font-size: 14px;
+    line-height: 22px;
+    color: #666;
+    position: relative;
+    -webkit-text-size-adjust: none;
+}
+body *
+{
+    text-shadow: none;
+}
+h1, h2, h3, h4, h5, h6
+{
+    line-height: 1;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+h1, h2, h3
+{
+    font-size: 18px;
+}
+h4, h5, h6
+{
+    font-size: 16px;
+}
+#header p
+{
+    margin: 0 0 10px 0;
+}
+a, a:link, a:active, a:visited, a:hover
+{
+    color: inherit!important;
+    text-decoration: none!important;
+}
+
+nav:not(.mm-menu)
+{
+    display: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+/*타이틀 라인*/
+.morebox{
+            width: 100%;
+            height: 21px;
+            position: relative;
+            background-color: #ffffff;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #centerline{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 10px;
+            background-color: #efefef;
+            z-index: 1;
+        }
+        #textbox{
+            background-color: #ffffff;
+            width: 150px;
+            height: 100%;
+            border-left: 1px solid #efefef;
+            border-right: 1px solid #efefef;
+            position: absolute;
+            left: 50%;
+            margin-left: -75px;
+            z-index: 10;
+            text-align: center;
+        }
+        #textbox .moretext{
+            color: #af0000;
+        }
+        #textbox .itemtype{
+            color: black;
+        }
+
+
+
+
+body, html {margin: 0; padding: 0; height: 100%;}
+#header, #section, #footer {
+    width: 100%;
+}
+#section {min-height: 100%;}
+#footer {background-color: #eee; text-align: center;}
+#footer p { margin-bottom: 1rem;}
+
+#page .mh-head {background-color: #fff; color:#000; font-size:12px;}
+#section .container {background-color: #fff; width: 1080px; margin: 0 auto!important; padding: 0px; max-width:1080px!important; }
+
+
+
+
+
+@media screen and (max-width:1080px ) {
+    #section .container, #header .mypage {width: 100%;  max-width: inherit !important; }
+
+
+} 
+@media screen and (max-width:768px ) {
+    #section .container { width:100% !important;  max-width: inherit !important;}
+} 
+@media screen and (max-width:576px) {
+    #header {height: 40px;}
+    #header .logimg {padding: 10px;}
+    #section .container { width:100%!important; max-width: inherit!important;}
+ }

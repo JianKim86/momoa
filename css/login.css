@@ -1,0 +1,127 @@
+
+.clear {clear:both;}
+#section .container .login_container a { cursor:pointer;}
+#section .container .login_container{
+	margin:0 auto;
+	text-align: center;
+	max-width:575px;
+	padding: 10px;
+	padding-top:88px;
+	padding-bottom:20px;
+
+	
+}
+#section .container .login_container fieldset {
+	border: none;
+}
+#section .container .login_container fieldset .input_form{
+	max-width: 600px;
+	border: 1px solid #efefef;
+	padding: 43px 64px;
+	
+}
+#section .container .login_container fieldset .input_form .input_list {
+	float: left; 
+	list-style: none;
+	margin: 0;
+    padding: 0;
+}
+
+#section .container .login_container fieldset .input_form .input_list li {
+	width: 240px;
+    text-align: left;
+}
+#section .container .login_container fieldset .input_form .input_list li label{ width: 100%; }
+#section .container .login_container fieldset .input_form .input_list li p{
+	margin:0px; padding: 0px;
+	font-size: 12px;
+    color: #555;
+    line-height: 20px;
+}
+#section .container .login_container fieldset .input_form .input_list li input {
+	width: 228px;
+    height: 30px;
+    padding: 0;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+#section .container .login_container fieldset .input_form .input_list li:nth-of-type(2){
+	margin-top:10px;
+}
+
+#section .container .login_container fieldset .input_form .login_btn{
+	float: left;
+    margin-top: 20px;
+    margin-left: 34px;
+}
+#section .container .login_container fieldset .input_form .login_btn a{
+	display: block;
+    width: 146px;
+    height: 94px;
+    font-size: 14px;
+    color: #fff!important;
+    line-height: 94px;
+    background: #555;
+	text-align: center;
+}
+/* #section .container .login_container .register_btn{
+	padding-left: 12.5px;
+	padding-right: 12.5px;
+}
+	 */
+#section .container .login_container .register_btn a {
+	display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 41px;
+    font-size: 12px;
+    line-height: 40px;
+    margin-top: 8px;
+    background: #af0000;
+    color: #fff!important;
+	text-align: center;
+
+}
+#section .container .login_container fieldset .input_form .security{
+	margin-top: 32px;
+    font-size: 11px;
+    font-weight: 500;
+    color: #777;
+}
+
+#section .container .login_container fieldset .input_form .security label{ 
+	cursor: default;
+	vertical-align:top;
+	line-height:18px;
+}
+#section .container .login_container fieldset .input_form .security label:nth-of-type(1){
+	margin-right: 33px;
+}
+
+@media screen and (max-width:576px) {
+	#section .container .login_container{ padding-top:0px; }
+	/*#section .container .login_container fieldset .input_form{ padding: 43px 64px 43px 44px; }*/
+	#section .container .login_container fieldset .input_form .input_list { width:100%; }
+	#section .container .login_container fieldset .input_form .input_list li { width:100%; }
+	#section .container .login_container fieldset .input_form .input_list li input { 
+		width: 100%;
+	}
+	#section .container .login_container fieldset .input_form .login_btn{
+		float: left;
+		width:100%;
+		margin-top: 20px;
+		margin-left: 0px;
+	
+	}
+	#section .container .login_container fieldset .input_form .login_btn a{
+		width: 100%;
+		height: 44px;
+		line-height: 44px;
+   
+	}
+
+
+	#section .container .login_container fieldset .input_form .security {
+		margin-top: 16px;	
+	}
+ }

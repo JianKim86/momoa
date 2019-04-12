@@ -1,0 +1,27 @@
+login_check.php - 로그인 정보 확인 문서
+1.로그인 페이지에서 넘어온 ID와 PW를 sql 조건문으로 일치하는 ID와 PW가 있는지 찾기
+2.조건문으로 해당 ID와 PW가 있으면 2페이지 뒤로, 없으면 경고창 후 로그인 창으로 이동
+
+momoadb.php - 옷 정보 등을 가져오는 문서
+1.sql 조건문으로 visible이 'Y'인 것만 추출
+2.조건문에서 $type에 값이 있는지 확인해서 메인 페이지용과 상세 페이지용으로 구분
+3.반복문으로 가져온 데이터 줄 수 만큼 돌려서 배열에 담은 다음 json으로 넣어 넘겨 줌
+
+register_send.php  - 회원 가입 문서
+1.회원 가입 창에서 가입 정보 받기
+2.sql insert문으로 넘어온 정보를 DB로 보냄
+
+register.php - JS의 signIn()과 id_dbcheck() 부분만 구현
+1.id_dbcheck() - ajax로 id중복 확인
+  가.idck : 중복 확인 버튼을 눌렀지 확인하는 변수
+  나.check_id.php에서 넘어온 값이 0 이상이면 중복 Id가 있으면 idck값을 유지해서 다시 중복검사를 하도록 하고, 없으면 idck를 1로 바꿔서 중복 id 검사하라는 경고문이 뜨지 않도록 함
+2.signIn()
+ 가.회원가입 버튼을 눌렀을때 각 정보별로 양식이나 유효성 검사 결과가 맞지 않으면 alert를 띄워 줌
+
+check_id.php - 회원가입시 register.php의 id_dbcheck()에서 ajax로 id 중복 체크하는 문서
+1.sql 조건문으로 넘어온 id가 있는지 DB에서 확인
+2.결과 값의 줄 수를 count해서 넘겨 줌
+3.register.php 
+
+notice.php - 공지 사항
+1.각 항목을 클릭하면 none으로 설정한 tr의 display를 ""으로 바꿔서 내용을 보여줍니다.

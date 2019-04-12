@@ -1,0 +1,125 @@
+
+.wishWrap{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 69px;
+}
+
+#textbox .itemtype{
+    font-size: 20px;
+    line-height: 1px; 
+}
+
+#wishTitle .wishListTitle{
+    margin:0 auto;
+	text-align: center;
+	max-width:791px;
+	padding-top:88px;
+	padding-bottom:20px;
+}
+
+
+.morebox{ margin-top: 80px;}
+
+th.T1{text-align: center;}
+th.T2{text-align: center;}
+th.T3{text-align: left;}
+th.T4{text-align: center;}
+
+
+.s_red {color:red; vertical-align: middle;}
+p.wishText{
+    margin-top:40px; 
+    margin-bottom: 40px;
+
+    color: grey;
+    font-size: 12px;
+    text-align: right;
+}
+
+p.itemName{
+    margin-top: 3%;
+    margin-bottom: 0%;
+}
+
+
+#wl .wishNum{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#wl .thum{
+    width: 120px;
+    height: 120px;
+    /* float: left; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#wl td.tdD{
+    vertical-align: middle;
+}
+img.delete{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+
+/* 반응형: 크기변형 */
+@media screen and (max-width:1080px ) {
+    #section .container, #header .mypage {width: 100%; }
+
+
+} 
+
+@media screen and (max-width:768px ) {
+  
+    /* 비율로 줄이기 */
+
+    .morebox{ margin-top: 60px;}
+
+    th.T1{text-align: center; font-size: 80%}
+    th.T2{text-align: center; font-size: 80%}
+    th.T3{text-align: left; font-size: 80%}
+    th.T4{text-align: center; font-size: 80%}
+
+
+
+    .s_red {color:red; vertical-align: middle;}
+    p.wishText{
+    margin-top:20px; 
+    margin-bottom:20px;
+
+    color: grey;
+    font-size: 6px;
+    text-align: center;
+}
+
+p.itemName{
+    font-size: 80%;
+}
+
+p.itemPrice{
+    font-size: 80%;
+}
+
+
+
+} 
+
+
+@media screen and (max-width:576px) {
+    /* #header {height: 40px;}
+    #header .logimg {padding: 10px;} */
+
+    .morebox{ margin-top: 20px;}
+
+
+    
+ }
+
+
