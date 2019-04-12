@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang='ko' class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=yes" />
+
+		<title>momoA - MainPage</title>
+
+		<link rel="stylesheet" type="text/css" href="./css/nav/nav.css">
+		<link rel="stylesheet" type="text/css" href="./css/nav/hamburgers.min.css">
+		<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico" />
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/default.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.css">
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.js"></script>
+		<link rel="stylesheet" type="text/css" href="./lib/jquery.mhead.css">
+		<script type="text/javascript" src="./lib/jquery.mhead.js"></script>
+		<script src="./js/default.js"></script>
+
+        <!-- 명섭 -->
+		<link rel="stylesheet" type="text/css" media="screen" href="./css/admin_input.css">
+	
+</head>
+
+
+<body>
+<div id="page">
+  <div id="header"></div>
+
+
+  <div id="section">
+  <div class="container">
+    
+     <!-- 개인작업영역 -->
+     <div>	
+            <fieldset>
+        <h2>MOMOA 관리자 페이지</h2>
+        <fieldset>
+            <legend>설정</legend>
+            <form action="momoaInsertData.php" method="POST" enctype="multipart/form-data">
+                <p>
+                    <label>Type : </label>
+                    <input type="text" name="type">
+                </p>
+                <p>
+                    <label>Shopname : </label>
+                    <input type="text" name="shopname">
+                </p>
+                <p>
+                    <label>Name : </label>
+                    <input type="text" name="name">
+                </p>
+                <p>
+                    <label>Price : </label>
+                    <input type="text" name="price">
+                </p>
+                <p>
+                    <label>Url : </label>
+                    <input type="text" name="url">
+                </p>
+                <p>
+                    <label>Visible : </label>
+                    <input type="text" name="visible">
+                </p>
+                <p>
+                    <label>첨부파일 : </label>
+                    <input type="file" name="upload">
+                </p>
+                <p>
+                    <input type="submit" value="완료">
+                    <!--    ↑ ↓ name속성 없어도 됨 -->
+                    <input type="reset" name="" value="취소">
+                </p>
+            </form>
+        </fieldset>
+    </fieldset>
+    </div>
+    <!-- 개인작업영역 -->
+
+
+  </div>
+  </div>
+
+
+
+
+    <div id="footer"></div>    
+
+</div>
+</body>
+</html>
