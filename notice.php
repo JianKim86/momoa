@@ -1,15 +1,15 @@
 <?php
-    header('Content-Type:text/html; charset=utf-8');
-    $conn = mysqli_connect("localhost", "toasthistory", "q1w2e3r4", "toasthistory");
+    // header('Content-Type:text/html; charset=utf-8');
+    // $conn = mysqli_connect("localhost", "toasthistory", "q1w2e3r4", "toasthistory");
 
-    mysqli_query($conn, "set names utf8");
+    // mysqli_query($conn, "set names utf8");
     
-    $sql = "select * from momoa_notice";   
-    $result = mysqli_query($conn, $sql);
-    while($row = mysqli_fetch_assoc($result)) {
-        $myArray[] = $row;
-    }
-    $jsonData = json_encode($myArray,JSON_UNESCAPED_UNICODE);
+    // $sql = "select * from momoa_notice";   
+    // $result = mysqli_query($conn, $sql);
+    // while($row = mysqli_fetch_assoc($result)) {
+    //     $myArray[] = $row;
+    // }
+    // $jsonData = json_encode($myArray,JSON_UNESCAPED_UNICODE);
    
     // echo("<Script>\n <!--\n history.go(-2)\n -->\n </Script>\n");
 ?>
