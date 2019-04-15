@@ -91,7 +91,7 @@
 	</head>
 	<body>
 
-	<div id="page"  tabindex="0">
+	<div id="page"  tabindex="0" class="removeline">
 		<div id="header">
 			<div class="mypage" role="region"  aria-label="Entertainment">
 					<?php if(!isset($_SESSION['session_id']) || !isset($_SESSION['session_pw'])) { ?>
@@ -110,7 +110,7 @@
 				<span class="mh-btns-left nav-mobile">
 					<a class="mh-hamburger"  href="#menu"></a>
 				</span>
-				<div class="logimg mh-text nav-up"  role="region"><a href="mainPage.php" tabindex="0"><img src="./images/logo.png"></a></div>
+				<div class="logimg mh-text nav-up"  role="region"><a href="mainPage.php" class="removeline"  tabindex="0"><img src="./images/logo.png"></a></div>
 			</div>
 			<div class="mh-head second Sticky nav-web" role="region">	
 				<ul class="mh-list">

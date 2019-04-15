@@ -20,7 +20,7 @@
 #header .first .nav-up { box-sizing: unset!important; }
 #header .second { border-bottom: 1px solid #ddd; z-index: 9999;}
 
-.cursor_p { cursor: pointer; }
+.cursor_p { cursor: pointer; outline: 0!important;}
 .nav-down { display: none!important; }
 .nav-up { display: block!important; padding: 40px!important;}
 .logimg a { display: inline-block; height: 100%;}
